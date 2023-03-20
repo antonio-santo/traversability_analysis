@@ -72,4 +72,3 @@ class preprocessingDataset2f(Dataset):
             self.features[:, 1] = z_norm
             print(self.coords.shape, self.features.shape)
             return self.coords, self.features
-
